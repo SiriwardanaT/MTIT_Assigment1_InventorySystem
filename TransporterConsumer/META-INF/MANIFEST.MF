@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TransporterConsumer
+Bundle-SymbolicName: TransporterConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: transporterconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: TransporterConsumer
+Import-Package: caseservice,
+ invoiceproducer,
+ itemservice,
+ middlepiplineservice,
+ orderpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
